@@ -32,8 +32,8 @@ num-traits = { version = "0.2", default-features = false }
 esp-wifi-sys = { version = "0.1.0", path = "../esp-wifi-sys" }
 embassy-sync = { version = "0.1.0", optional = true }
 embassy-futures = { version = "0.1.0", optional = true }
-embassy-net = { git = "https://github.com/28Smiles/embassy", rev = "c22218c72e4940a0aef3fc180ba18b557713cf40", features = ["nightly", "tcp", "udp", "dhcpv4", "medium-ethernet"], optional = true }
-embassy-net-driver = { git = "https://github.com/28Smiles/embassy", rev = "c22218c72e4940a0aef3fc180ba18b557713cf40", optional = true }
+embassy-net = { git = "https://github.com/embassy-rs/embassy.git", rev = "c9d89f391ba141991888d29539e996b2d0a4c74b", features = ["nightly", "tcp", "udp", "dhcpv4", "medium-ethernet"], optional = true }
+embassy-net-driver = { git = "https://github.com/embassy-rs/embassy.git", rev = "c9d89f391ba141991888d29539e996b2d0a4c74b", optional = true }
 
 [build-dependencies]
 riscv-target = { version = "0.1.2", optional = true }
